@@ -20,5 +20,5 @@ def raiz (a, b):
     if a < 0:
         return "Não é possível calcular a raiz de um número negativo"
     else:
-        return (a**0.5)   
+        return (a**(1/b))
        
